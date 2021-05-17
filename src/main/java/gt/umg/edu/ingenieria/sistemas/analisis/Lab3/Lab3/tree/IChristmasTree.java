@@ -1,4 +1,4 @@
-package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3;
+package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3.tree;
 import java.util.*;
 
 /**

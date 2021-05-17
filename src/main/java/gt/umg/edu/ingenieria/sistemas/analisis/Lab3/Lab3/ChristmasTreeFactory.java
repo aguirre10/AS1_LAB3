@@ -1,36 +1,39 @@
 package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3;
 
+import gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3.tree.*;
+
 /**
  * 
  */
 public class ChristmasTreeFactory {
 
     /**
-     * @param ChristmasTreeType
+     * @param christmasTreeType
      * @return
      */
-    public IChristmasTree getChristmasTree(String ChristmasTreeType) {
-        if (ChristmasTreeType == null){
-            return null;
-        }
-        if (ChristmasTreeType.equalsIgnoreCase("BALSAM FIR")){
-            return new BalsamFirTree();
-        }
-        if (ChristmasTreeType.equalsIgnoreCase("FRASER FIR")){
-            return new FraserFirTree();
-        }
-        if (ChristmasTreeType.equalsIgnoreCase("NOBLE FIR")){
-            return new NobleFirTree();
-        }
-        if (ChristmasTreeType.equalsIgnoreCase("SCOTCH PINE")){
-            return new ScotchPine();
+    public IChristmasTree getChristmasTree(ChristmasTree christmasTreeType) {
+
+        switch (christmasTreeType)
+        {
+            case BalsamFirTree:
+                return new BalsamFirTree();
+
+            case FraserFirTree:
+                return new FraserFirTree();
+
+            case  NobleFirTree:
+                return new NobleFirTree();
+
+            case ScotchPine:
+                return new ScotchPine();
+
+            case WhitePine:
+                return new WhitePine();
+
+            default:
+                return new UndefinedTree();
         }
 
-        if (ChristmasTreeType.equalsIgnoreCase("WHITE PINE")){
-            return new WhitePine();
-        }
-
-        return null;
     }
 
 }

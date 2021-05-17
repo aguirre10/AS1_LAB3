@@ -1,5 +1,4 @@
-package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3;
-import java.util.*;
+package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3.tree;
 
 /**
  * 
@@ -16,7 +15,7 @@ public class FraserFirTree implements IChristmasTree {
      * 
      */
     public void place() {
-        System.out.println("FraserFir::place()");
+        System.out.println("Fabricando FraserFir");
         // TODO implement here
     }
 

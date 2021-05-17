@@ -1,17 +1,17 @@
-package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3;
-import java.util.*;
+package gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3.decorator;
+import gt.umg.edu.ingenieria.sistemas.analisis.Lab3.Lab3.tree.IChristmasTree;
 
 /**
  * 
  */
-public abstract class ChristmasTreeDecorate {
+public abstract class ChristmasTreeDecorator implements IChristmasTree{
 
     /**
      * Default constructor
      */
     protected IChristmasTree decoratedChristmasTree;
 
-    public ChristmasTreeDecorate(IChristmasTree decoratedChristmasTree) {
+    public ChristmasTreeDecorator(IChristmasTree decoratedChristmasTree) {
         this.decoratedChristmasTree = decoratedChristmasTree;
 
     }
