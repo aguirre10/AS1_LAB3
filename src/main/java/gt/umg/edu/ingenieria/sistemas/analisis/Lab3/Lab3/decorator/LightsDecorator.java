@@ -10,13 +10,17 @@ public class LightsDecorator extends ChristmasTreeDecorator {
      * Default constructor
      */
     public LightsDecorator(IChristmasTree decoratedChristmasTree) {
+
         super(decoratedChristmasTree);
     }
 
     @Override
     public void place() {
+        super.place();
         addLights(decoratedChristmasTree);
     }
+
+
 
     /**
      * @param christmasTree

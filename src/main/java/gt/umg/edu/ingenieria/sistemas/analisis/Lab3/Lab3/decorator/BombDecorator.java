@@ -15,6 +15,7 @@ public class BombDecorator extends ChristmasTreeDecorator {
 
     @Override
     public void place() {
+        super.place();
         addBomb(decoratedChristmasTree);
     }
 

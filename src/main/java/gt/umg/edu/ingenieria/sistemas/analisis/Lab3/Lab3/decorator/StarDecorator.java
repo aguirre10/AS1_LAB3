@@ -16,6 +16,7 @@ public class StarDecorator extends ChristmasTreeDecorator {
 
     @Override
     public void place() {
+        super.place();
         addStar(decoratedChristmasTree);
     }
 

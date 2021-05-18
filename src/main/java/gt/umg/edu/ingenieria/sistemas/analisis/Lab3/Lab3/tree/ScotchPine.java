@@ -16,8 +16,12 @@ public class ScotchPine implements IChristmasTree {
      * 
      */
     public void place() {
-        System.out.println("Fabricando ScotchPine");
+        System.out.println("Colocando ScotchPine");
         // TODO implement here
+    }
+
+    public void cut() {
+        System.out.println("Talando Scotch Pine");
     }
 
 }

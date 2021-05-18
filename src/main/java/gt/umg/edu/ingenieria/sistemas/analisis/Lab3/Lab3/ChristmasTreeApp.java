@@ -17,12 +17,8 @@ public class ChristmasTreeApp {
         // TODO implement here
         ChristmasTreeFacade christmasTreeFacade  = new ChristmasTreeFacade();
 
-
-      christmasTreeFacade.placeBalsamFir();
-      christmasTreeFacade.placeNobleFirTree();
-      christmasTreeFacade.placeFraserFirTree();
-      christmasTreeFacade.placeScotchPine();
-      christmasTreeFacade.placeWhitePine();
+        christmasTreeFacade.fillChristmasTrees(10);
+        christmasTreeFacade.decorateChristmasTrees();
     }
 
 }

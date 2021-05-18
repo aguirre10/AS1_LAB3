@@ -30,10 +30,10 @@ public class ChristmasTreeFactory {
             case WhitePine:
                 return new WhitePine();
 
-            default:
-                return new UndefinedTree();
         }
+        return null;
 
     }
+
 
 }

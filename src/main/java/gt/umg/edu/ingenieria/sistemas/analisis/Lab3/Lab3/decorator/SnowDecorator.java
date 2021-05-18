@@ -12,7 +12,7 @@ public class SnowDecorator extends ChristmasTreeDecorator {
     }
     @Override
     public void place() {
-      //  decoratedChristmasTree.place();
+        super.place();
         addSnow(decoratedChristmasTree);
 
     }

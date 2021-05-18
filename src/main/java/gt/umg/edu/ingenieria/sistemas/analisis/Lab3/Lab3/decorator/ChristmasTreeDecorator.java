@@ -16,17 +16,14 @@ public abstract class ChristmasTreeDecorator implements IChristmasTree{
 
     }
 
-    /**
-     * 
-     */
 
-
-    /**
-     * 
-     */
     public void place() {
-         decoratedChristmasTree.place();
+         this.decoratedChristmasTree.place();
         // TODO implement here
     }
 
+    @Override
+    public void cut() {
+        this.decoratedChristmasTree.cut();
+    }
 }

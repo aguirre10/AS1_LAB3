@@ -16,8 +16,12 @@ public class NobleFirTree implements IChristmasTree {
      * 
      */
     public void place() {
-        System.out.println("Fabricando NobleTree");
+        System.out.println("Colocando NobleTree");
         // TODO implement here
+    }
+
+    public void cut() {
+        System.out.println("Talando NobleFIR");
     }
 
 }

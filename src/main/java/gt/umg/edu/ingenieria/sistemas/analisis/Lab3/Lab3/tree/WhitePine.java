@@ -16,8 +16,12 @@ public class WhitePine implements IChristmasTree {
      * 
      */
     public void place() {
-        System.out.println("Fabricando WhitePine");
+        System.out.println("Colocando WhitePine");
         // TODO implement here
+    }
+
+    public void cut() {
+        System.out.println("Talando WhitePine");
     }
 
 }

@@ -12,5 +12,7 @@ public interface IChristmasTree {
      * 
      */
     public void place();
+    public void cut();
+
 
 }

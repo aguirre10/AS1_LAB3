@@ -15,8 +15,12 @@ public class FraserFirTree implements IChristmasTree {
      * 
      */
     public void place() {
-        System.out.println("Fabricando FraserFir");
+        System.out.println("Colocando FraserFir");
         // TODO implement here
+    }
+
+    public void cut() {
+        System.out.println("Talando FraserFir");
     }
 
 }

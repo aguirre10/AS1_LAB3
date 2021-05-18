@@ -9,7 +9,13 @@ public class BalsamFirTree implements IChristmasTree {
      * 
      */
     public void place() {
-        System.out.println("Fabricando BalsamFir");
+        System.out.println("Colocando BalsamFir");
     }
+
+    @Override
+    public void cut() {
+        System.out.println("Talando BalsamFir");
+    }
+
 
 }
